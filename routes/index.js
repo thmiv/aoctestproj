@@ -32,17 +32,6 @@ module.exports = function (app) {
     res.render("aocday2");
   });
 
-  // HTML GET Requests ----------------------
-
-  app.get("/index", function (req, res) {
-    res.sendFile(path.join(__dirname + "/../viewers/index.html"));
-    //__dirname : It will resolve to your project folder.
-  });
-
-  app.get("/test", function (req, res) {
-    res.sendFile(path.join(__dirname + "/../viewers/test.html"));
-  });
-
   // Non-routes
   app.get("*", function (req, res) {
     res.render("404");
