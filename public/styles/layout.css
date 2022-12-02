@@ -1,32 +1,46 @@
 /* main css files */
 
 /*@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";*/
+
 body {
-   background-color: rgb(47, 50, 56);
+  background-color: gainsboro;
 }
 
-.formbox {
-   background: rgb(209, 239, 240);
-   padding: 10px 30px 10px 30px;
-   border-radius: 25px;
+label {
+  font-weight: 600;
+  font-size: larger;
+  color: darkslategray;
+  padding: 4px;
+}
+
+.textarea {
+  margin: 1em;
+}
+
+.row {
+  margin: 1em;
 }
 
 /* full screen image modal ****************************/
 .img-thumbnail:hover {
-   filter: brightness(125%);
+  filter: brightness(125%);
 }
 
 /* The Modal (background) */
 .modal-content {
-   width: 100%;
-   /* overflow: auto; * Enable scroll if needed */
-   background-color: rgb(161, 132, 211); /* Fallback color */
-   background-color: rgba(77, 47, 158, 0.548); /* color w/ opacity */
+  width: 100%;
+  /* overflow: auto; * Enable scroll if needed */
+  background-color: rgb(161, 132, 211); /* Fallback color */
+  background-color: rgba(77, 47, 158, 0.548); /* color w/ opacity */
 }
 
 .modal-header {
-   color: whitesmoke;
-   background-color: rgba(34, 230, 67, 0.438);
+  color: whitesmoke;
+  background-color: rgba(34, 230, 67, 0.438);
+}
+
+#ohfour {
+  color: crimson;
 }
 
 /* 100% Image Width on Smaller Screens *
